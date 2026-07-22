@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #F45B69;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainContainer {
+    background-color: #F6E8EA;
+    height: 70vh;
+    width: 40vw;
+    border-radius: 0.5rem;
+    color: #22181C;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+
+}
+
+#writeNoteContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+    height: 50%;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+#writeNoteBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    /* background-color: aqua; */
+    height: 40%;
+    width: 80%;
+}
+
+label{
+font-size: 1.8rem;
+font-weight: 600;
+}
+
+input{
+    width: 80%;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #dfd2d3;
+    border: none;
+    outline: none;
+    color: #22181C;
+}
+
+#addNoteBtn{
+padding: 1rem;
+font-size: 1.25rem;
+background-color: #22181C;
+color: #F6E8EA;
+border-radius: 0.5rem;
+font-weight: 500;
+cursor: pointer;
+
+}
+
+hr {
+    background-color: #22181C;
+    width: 100%;
+}
+
+#showNotesContainer{
+    height: 40%;
+}
+
+#showNotesBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+h3{
+    font-size: 1.4rem;
+    font-weight: 400;
+    
+}
