@@ -29,4 +29,4 @@ A simple Notes Wall application built using HTML, CSS, and JavaScript.
 
 ## Live Demo
 
-Add your Vercel URL here after deployment.
+https://notes-wall-five.vercel.app/
